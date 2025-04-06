@@ -4,7 +4,7 @@ Open-source design for Peltier powered cooler/condenser with closed coolant circ
 # Description and motivation
 
 ## Ideology
-This design should be 'de-facto' considered public domain without any regard for copyrights. This is not a purely software project. This design is aimed at help people in time of extremely disturbing future events.
+This design should be 'de-facto' considered public domain without any regard for copyrights. This is not a purely software project. This design is aimed to help people in time of extremely disturbing future events.
 
 Since climate changes are rapidly and unexpectedly progressing, obtaining drinkable water will become expensive and/or hard. Conventionally for condensing vapors constant stream of coolant is needed (eg. running cold water). This design aims at providing simple and cheap way to obtain condensed vapor using only small amount of coolant and access to electricity.
 Design is based on generic equipment that should be easily obtained. 
