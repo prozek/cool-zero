@@ -1,4 +1,4 @@
-# cool-zero
+# cool-zero-zero
 Open-source design for Peltier powered cooler/condenser with closed coolant circuit
 
 # Description and motivation
@@ -11,6 +11,15 @@ Design is based on generic equipment that should be easily obtained.
 
 ## Brief summary of operation
 Peltier cells work with DC voltage, therefore precise current control is required. It is achieved by using MOSFET controlled by a microcontroller with PMW signal. Coolant with small reservoir is running constantly with two membrane pumps (fish tank type pump) in the coolant circuit. PCV pipe with coolant is put into spiral inside a glass jar/pot, using copper tape. Hot side of the peltier device is equiped with a copper rod and aluminum heat sink, together with fans (PC parts). Since Peltier device temperature eventually raises, microcontroller will use PID scheme to let hot side cool down.
+
+- added 'Thermal Dissipation Circuit' with 'Thermal Dissipation Liquid' (TDL) for prototype, as an alternative to simple fan/radiator setup. This will be able to dissipate ~3kW of heat (based on experts words), therefore up to 40 peltier devices (TEC1-12705) can be coupled and 'cooling capability' would require to change coolant (e.g. propylene glycol).
+- power supply seems to be a problem (currently 300W), however it is possible that many power supplies to be used together (R&D needed)
+- heat exchanger _on the Peltier cell_ needs to be constructed (copper pipe fi 18 mm) together with a copper plate
+- insulation at Peltier cell heat exchangers need to be addressed
+  - polyurethane foam - affordable, cutable, easy to get
+  - asbestos - too problematic, but would be easy to get
+  - styrofoam of different kinds
+  - HEAT INSULATION EXPERIMENTAL SETUP WILL BE NEEDED
 
 
 # Contents
