@@ -14,15 +14,18 @@ Peltier cells work with DC voltage, therefore precise current control is require
 
 ## Prototypes
 # v1
-Standard tower PC case seems to be an easy obtainable and easy to use with its PSU if provided.  
-Add specifications which era/what/type case
+After some careful consideration, stainless steel parts for furniture building are cheapest and easy to obtain. In this setup, M4 bolts and nuts are used.
+For plastic parts to install electronics on, *back plate of CD/DVD case can be used*:
+- easy to obtain
+- helps with modular design
+- easy to glue/screw/melt in parts
 
-Mechanical switches + electronic 'switch' (STD20NF06LT4 repurposed; it seems that it cannot be used as a 'flow control' of current) for each Peltier cell. 
 
+Mechanical switches + relays for each Peltier cell. 
 
-- only passive cooling with radiators and fans
-- coolant circuit will include two pumps
-- coolant reservior -- repurposed 
+- only passive cooling with radiators and fans - repurpose 
+- coolant circuit will include *aquarim type* two pumps
+- coolant reservior -- repurposed insulated can for hot bevareges
 
 
 # v2
